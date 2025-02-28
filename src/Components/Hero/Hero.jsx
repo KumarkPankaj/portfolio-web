@@ -11,7 +11,14 @@ const Hero = () => {
       <p>I am a frontend devloper from Uttar Pradesh, India i am a fresher. </p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link'offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume"> <a 
+            className='anchor-link' 
+            href='https://drive.google.com/file/d/1Vc9AiPxr7_be4CvhFQm1FFhrAdANCT9e/view?usp=drivesdk' 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            My Resume
+          </a></div>
       </div>
     </div>
   );

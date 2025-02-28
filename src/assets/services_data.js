@@ -6,7 +6,7 @@ const Services_Data = [
     },
     {
         s_no:"02",
-        s_name:"Vedio editing",
+        s_name:"Video editing",
         s_desc:"Video editing is the process of manipulating and rearranging video footage to create a final product..."
     },
     {
